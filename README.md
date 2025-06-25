@@ -145,4 +145,7 @@ Built using: AWS Glue, SageMaker, ECS Fargate, EC2, FastAPI, Streamlit, HuggingF
 
 ---
 
+## Teammates
+Aniruthan S A & Janani Karthikeyan
+
 > ✨ Fully CI/CD-enabled, cloud-optimized sentiment analysis app ready for production!
