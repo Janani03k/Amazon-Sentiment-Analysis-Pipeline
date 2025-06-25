@@ -1,0 +1,40 @@
+# 🔒 Ignore all .env files at any level
+.env
+**/.env
+sentiment-app/.env
+sentiment-app/backend/.env
+# 📦 Local folders not meant for Git
+config/
+data/
+dependencies-glue/
+
+# 🐍 Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 🧪 Test reports / logs
+logs/
+tmp/
+
+# 📝 Notebooks & checkpoints (optional)
+.ipynb_checkpoints/
+
+# 💻 IDE/editor specific files
+.vscode/
+.idea/
+.DS_Store
+
+# 🚀 Optional: compiled models/artifacts
+*.tar.gz
+*.h5
+*.pkl
+*.joblib
+*.pt
+
+# 🚫 Ignore Spark temporary files
+._SUCCESS
+
+# Protect key.pem from being pushed
+**/key.pem

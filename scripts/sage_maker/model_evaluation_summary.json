@@ -1,0 +1,37 @@
+{
+    "timestamp": "2025-04-09T04:20:12.495456",
+    "model_name": "models/distilbert-sentiment-optimized-2025-04-09-01-44-23-099/output",
+    "metrics": {
+        "eval_loss": 0.22376352548599243,
+        "eval_model_preparation_time": 0.0016,
+        "eval_accuracy": 0.9314,
+        "eval_precision": 0.9434621710526315,
+        "eval_recall": 0.9178,
+        "eval_f1": 0.9304541768045418,
+        "eval_runtime": 259.0937,
+        "eval_samples_per_second": 77.192,
+        "eval_steps_per_second": 4.825
+    },
+    "class_summary": {
+        "actual_positive": 10000,
+        "actual_negative": 10000,
+        "predicted_positive": 9728,
+        "predicted_negative": 10272
+    },
+    "sample_reviews": {
+        "top_predicted_positive": [
+            "perfect gift for my fianc\u00e9!",
+            "awesome rug!",
+            "perfect, great seller",
+            "awesome and great condition",
+            "great radio!"
+        ],
+        "top_predicted_negative": [
+            "poorly crafted product",
+            "does not work do not waste your money!",
+            "junk",
+            "the microphone didn't even work.",
+            "do not buy cheap. does not work."
+        ]
+    }
+}
